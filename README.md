@@ -6,7 +6,7 @@ Implementación de un Autómata Finito Determinista (AFD) en **Python** y **C** 
 - `++` → INCR  
 - `[A-Z][a-z0-9]*` → ID  
 
-La entrada se lee desde `entrada.txt` y los tokens se imprimen por pantalla.  
+La entrada se lee desde el archivo `entrada.txt` y los tokens se imprimen por pantalla.  
 Si un token no cumple la expresión regular, se muestra `NO ACEPTA`.
 
 ---
@@ -22,10 +22,18 @@ Si un token no cumple la expresión regular, se muestra `NO ACEPTA`.
 ## Ejecución
 
 ### Python
+
 ```bash
 python3 afd.py
+```
 
 ### C
+
 ```bash
 gcc afd.c -o afd
 ./afd
+```
+
+---
+
+Autor: Nicolás Sánchez
